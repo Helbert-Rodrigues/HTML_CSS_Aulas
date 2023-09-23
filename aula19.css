@@ -1,0 +1,36 @@
+.stretch {
+  align-items: stretch; /* default */
+}
+
+.center {
+  align-items: center; /* centralizar */
+}
+
+.flex-start {
+  align-items: flex-start; /* ele vai pegar o item e vai dermarcar até o final do msm. */
+}
+
+.flex-end {
+  align-items: flex-end;
+}
+
+.baseline {
+  align-items: baseline; /* todos os textos vão começar do mesmo local (linha). */
+}
+
+.container {
+  display: flex;
+  margin: 8px auto;
+  width: 400px;
+  border: 1px solid black;
+}
+
+.item {
+  flex: 1;
+  margin: 8px;
+  background-color: red;
+}
+
+.item:first-child {
+  padding-top: 20px;
+}

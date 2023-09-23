@@ -1,0 +1,30 @@
+body {
+  margin: 0px;
+}
+
+.conteiner {
+  display: block;
+  padding: 8px;
+  margin: auto;
+  width: 500px;
+}
+
+.item {
+  background-color: red;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  margin: 8px;
+}
+
+.flex {
+  display: flex; /* ele pegou o estilo do conteiner e colocou com o do flex. */
+}
+
+.flex-1 {
+  flex: 1; /* ( flex: 1; ) ele vai adaptar o objeto ao tamanho que tem disponivel. */
+}
+
+.flex-wrap {
+  flex-wrap: wrap; /* (flex-wrap: wrap;) ele organiza os objetos no espaco disponivel. */
+}

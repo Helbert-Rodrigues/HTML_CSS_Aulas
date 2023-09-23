@@ -1,0 +1,35 @@
+body {
+  margin: 0px;
+}
+
+.row {
+  flex-direction: row; /* (row) significa que a class vai ser de linha */
+}
+
+.row-reverse {
+  flex-direction: row-reverse; /* vai alterar a ordem do seu class de linha */
+}
+
+.column {
+  flex-direction: column; /* (column) significa que a class vai ser de coluna */
+}
+
+.column-reverse {
+  flex-direction: column-reverse; /* vai alterar a ordem do seu class de coluna */
+}
+
+.container {
+  display: flex;
+  padding: 8px;
+  margin: auto;
+  width: 400px;
+}
+
+.item {
+  flex: 1;
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  margin: 8px;
+}

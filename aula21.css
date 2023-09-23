@@ -1,0 +1,76 @@
+body {
+  margin: 0px;
+}
+
+.imagem_fundo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+  height: 100vh;
+  width: 100vw;
+  z-index: -1; /* pra imagem não ficar na frente de nada */
+}
+
+.titulo {
+  margin: 100px auto 20px auto; /* em cima fica 100px e embaixo fica 20px */
+  color: #00aabd;
+  font-family: sans-serif;
+  font-weight: 900; /* largura da fonte (letra) do titulo */
+  width: 80%;
+  font-size: 50px;
+  text-align: center;
+  max-width: 600px;
+}
+
+.amarelo {
+  color: rgb(255, 255, 0);
+}
+
+.sub_titulo {
+  font-family: sans-serif;
+  font-weight: 100;
+  color: white;
+  width: 80%;
+  font-size: 14px;
+  margin: 0px auto 100px auto;
+  max-width: 600px;
+}
+
+.imagem_praia {
+  margin: auto;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.center_imagem {
+  display: flex; /* pra poder modificar a posição */
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.section_2 {
+  background-color: #00aabd;
+  display: flex;
+  width: 100vw;
+}
+
+.conteiner_items {
+  display: flex;
+  width: 80%;
+  max-width: 800px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.item {
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  width: 100px;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: #00679a;
+}

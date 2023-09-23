@@ -1,0 +1,21 @@
+body {
+  margin: 0px; /* volta toda daquele objeto */
+  background-color: blue;
+}
+
+main {
+  background-color: yellow;
+  width: 100px; /*largura */
+  height: 100px; /*altura */
+
+  margin-left: 1em; /* margen a esquerda */
+}
+
+div {
+  background-color: coral;
+  width: 50%;
+  height: 50%;
+  margin: 20px 10px 5px 2px;
+}
+/* margens em todos os lados com sentido horario começando por cima */
+/* colocar alto no margin faz centralizar o objeto */

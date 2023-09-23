@@ -1,0 +1,21 @@
+main {
+  background-color: blue;
+  width: 100px;
+  height: 190px;
+}
+
+.conteiner_div {
+  background-color: chocolate;
+  width: 100px;
+  height: 100px;
+}
+
+#novo_id {
+  background-color: rgb(210, 223, 26);
+  width: 100px;
+  height: 100px;
+}
+
+.conteiner_main {
+  background-color: cornflowerblue;
+}

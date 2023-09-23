@@ -1,0 +1,33 @@
+.flex-start {
+  justify-content: flex-start; /* default. */
+}
+
+.flex-end {
+  justify-content: flex-end; /* vai colocar o objeto no final daquilo que especificando. */
+}
+
+.flex-center {
+  justify-content: center; /* vai centralizar o objeto que estamos colocando. */
+}
+
+.flex-space-between {
+  justify-content: space-between; /* vai pegar o nosso item e vai organizar colocando um espaco do mesmo tamanho no inicio ao fim. */
+}
+
+.flex-space-around {
+  justify-content: space-around;
+}
+
+.container {
+  width: 400px;
+  display: flex;
+  margin: 8px auto;
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.item {
+  background-color: red;
+  text-align: center;
+  margin: 8px;
+}

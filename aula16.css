@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+.flex-wrap {
+  flex-wrap: wrap; /* vai se adptar o tamanho da pagina organizando. */
+}
+
+.flex-no-wrap {
+  flex-wrap: nowrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse; /* vai se adptar o tamanho da pagina. */
+}
+
+.conteiner {
+  display: flex;
+  width: 600px;
+  margin: auto; /* vai colocar centralizado. */
+}
+
+.item {
+  flex: 1; /* vai sempre sé adaptar ao tamanho da tela. */
+  font-size: 22px;
+  background-color: red;
+  text-align: center;
+  margin: 8px;
+}

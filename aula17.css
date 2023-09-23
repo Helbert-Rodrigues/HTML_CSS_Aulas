@@ -1,0 +1,27 @@
+.row-nowrap {
+  flex-flow: row nowrap; /* (flex-flow: ;) pode colocar duas funcoes dentro dela ex 'row' e 'nowrap'. */
+}
+
+.column-nowrap {
+  flex-flow: column nowrap; /* a função 'column' é pra deixar o texto em coluna e a função 'nowrap' desorganizado.  */
+}
+
+.row-wrap {
+  flex-flow: row wrap; /* a função 'row': é pra deixar o texto em linha e a função 'wrap': é pra deixar tudo alinhado.  */
+}
+
+.container {
+  display: flex;
+  width: 600px;
+  margin: auto;
+  padding: 8px;
+  border: 1px solid black;
+}
+
+.item {
+  color: aliceblue;
+  text-align: center;
+  flex: 1;
+  margin: 8px;
+  background-color: red;
+}

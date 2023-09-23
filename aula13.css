@@ -1,0 +1,17 @@
+body {
+  margin: 0px;
+}
+
+.menu-left {
+  background-color: pink;
+  width: 200px;
+  height: 100vh; /* 100vh significa 100% do abjeto. */
+  float: left; /* para passar para o canto esquerdo da tela. */
+}
+
+.menu-right {
+  background-color: aqua;
+  width: 300px;
+  height: 100vh;
+  float: right; /* para passar para o canto direito da tela. */
+}
